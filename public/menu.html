@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="stylesheet" href="assets/css/suport.css">
+</head>
+<body class="h-[100vh] w-[100vw] grid items-center overflow-x-hidden bg-milk text-dark"><!-- border-[1px] border-milk -->
+  <!-- <div class="loading">
+    <div class="loader">
+        <div class="text-load">
+            <p>Loading Some Stuff, wait,take a break.</p>
+        </div>
+        <span><i></i></span>
+    </div>
+</div>
+<script>
+    let text = document.querySelector(".text-load p");
+    text.innerHTML = text.innerText.split("").map((char, i) =>
+    '<b style="transform:rotate('+i * 9+'deg)">'+char+'</b>').join("");
+</script> -->
+  <div id="trailer" class="grid place-items-center h-6 w-6 bg-dark  rounded-full fixed top-0 left-0 pointer-events-none opacity-0 z-[1000000000000000] transition-opacity">
+      <span class="material-symbols-rounded text-milk" id="trailer-icon">
+      </span>
+  </div>
+  <div class="fixed w-[100vw] h-[100vh] bg-dark transition-all" id="menu">
+    <div id="wrapper"></div>
+    <div class="absolute z-20 w-[100vw] h-[100vh] grid place-content-center">
+        <div class="gap-2 flex flex-col text-milk ">
+            <div onclick="handleClick(this, 'project')" id="project" class="interactable menu-link hover:text-dark  hover:bg-milk transition-all" data-type="project">
+                <a  class="uppercase Black_font select-none hintText"  >PROJECT</a>
+            </div>
+            <div onclick="handleClick(this, 'contact')" id="contact" class="interactable menu-link hover:text-dark  hover:bg-milk transition-all" data-type="contact">
+                <a  class="uppercase Black_font select-none hintText">ME and CONTACT ME.</a>
+            </div>
+            <div onclick="handleClick(this, 'index')" id="jst" class="interactable menu-link hover:text-dark  hover:bg-milk transition-all" data-type="look">
+                <a class="uppercase Black_font select-none hintText">just looking around.</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <script src="assets/JS/loadscreen.js"></script> -->
+<script src="assets/JS/grid.js"></script>
+<script src="assets/JS/anime.min.js"></script>
+<script src="assets/JS/menu.js"></script>
+<script src="assets/JS/mouseevent.js"></script>
+</body>
+</html>
