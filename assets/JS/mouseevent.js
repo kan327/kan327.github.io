@@ -14,6 +14,8 @@ const getTrailerClass = type => {
       return "menu";
     case "code":
       return "code";
+    case "download":
+      return "download";
     default:
       return "north_east"; 
   }
