@@ -65,8 +65,8 @@ trigger.onmousedown = e => {
   })
   setTimeout(() => {
     if(isVisited){
-      document.querySelectorAll(".hintText")[0].dataset.value = "you're still here"
-      document.querySelectorAll(".hintText")[1].dataset.value = "thanks, so,"
+      document.querySelectorAll(".hintText")[0].dataset.value = "Not the first    "
+      document.querySelectorAll(".hintText")[1].dataset.value = "Time here? "
       document.querySelectorAll(".hintText")[2].dataset.value = "the next is ?"
     } else {
       document.querySelectorAll(".hintText")[0].dataset.value = "thanks. but, why,"
