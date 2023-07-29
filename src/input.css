@@ -4,15 +4,15 @@
 
 @layer components{
     .Black_font {
-        @apply text-5xl font-mundial_b tracking-[-0.5px] leading-[48px]
+        @apply text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-mundial_b tracking-[-0.5px] leading-[100%]
     }
     .Thin_font {
-        @apply text-xl font-mundial_t leading-[20px]
+        @apply text-base sm:text-lg lg:text-xl xl:text-xl font-mundial_t leading-[100%]
     }
     .DemiBold_font {
-        @apply text-xl font-mundial_db tracking-[-0.5px]
+        @apply text-base sm:text-lg lg:text-xl xl:text-xl font-mundial_db sm:tracking-[-0.3] lg:tracking-[-0.5px]
     }
     .Quicksand_font {
-        @apply text-xl font-quicksand_l tracking-[-0.5px] leading-[20px]
+        @apply text-base sm:text-lg lg:text-lg xl:text-xl font-quicksand_l sm:tracking-[-0.3] lg:tracking-[-0.5px] leading-[100%]
     }
 }

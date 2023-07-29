@@ -1,5 +1,4 @@
 const trailer = document.getElementById("trailer")
-
 const getTrailerClass = type => {
   switch(type) {
     case "video":
