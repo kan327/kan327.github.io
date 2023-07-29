@@ -12,7 +12,6 @@ const checkHistory = () =>{
         }
     } else {
         console.error("Couldn't get storage browser, please enable javascript or your session storage")
-        return false;
     }
 }
 

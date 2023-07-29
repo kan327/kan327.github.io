@@ -94,7 +94,13 @@ html {
 body:hover > #trailer{
   opacity: 1 !important; 
 }
+@media (min-width: 768px) {
+  #trailer{
+    display: grid !important;
+  }
+}
 #trailer {
+  display: none;
   opacity: 0;
 }
 #trailer-icon {
@@ -207,7 +213,7 @@ body:hover > #trailer{
     src: url(./../fonts/Quicksand-Light.woff);
 }
 /* ===================================================== */
-/* card hover style */
+/* magic card hover style */
 :root {
   --bg-color: rgb(243, 243, 243);
   --card-color: rgb(243, 243, 243);
