@@ -11,7 +11,7 @@
 </head>
 <body class="h-[100vh] w-[100vw] grid items-center overflow-x-hidden bg-milk text-dark"><!-- border-[1px] border-milk -->
 
-    <!-- <div class="loading">
+    <div class="loading">
         <div class="loader">
             <div class="text-load">
                 <p>Loading Some Stuff, wait,take a break.</p>
@@ -23,12 +23,7 @@
         let text = document.querySelector(".text-load p");
         text.innerHTML = text.innerText.split("").map((char, i) =>
         '<b style="transform:rotate('+i * 9+'deg)">'+char+'</b>').join("");
-    </script> -->
-    <div id="trailer" style="display: none;" class=" place-items-center h-6 w-6 bg-dark  rounded-full fixed top-0 left-0 pointer-events-none opacity-0 z-[1000000000000000] transition-opacity">
-        <span class="material-symbols-rounded text-milk" id="trailer-icon">
-            lens
-        </span>
-    </div>
+    </script>
     <div class="absolute w-full h-[100vh] overflow-hidden right-0 bottom-0" id="spawn"></div>
     <div id="content">
         <main class="relative border-l-4 border-dark text-dark w-fit">
@@ -66,7 +61,7 @@
     </div>
     <!-- menu -->
     <script src="assets/JS/storage.js"></script>
-    <!-- <script src="assets/JS/loadscreen.js"></script> -->
+    <script src="assets/JS/loadscreen.js"></script>
     <!-- <script src="assets/JS/navigate.js"></script> -->
     <script src="assets/JS/mouseevent.js"></script>
     <script src="assets/JS/menu.js"></script>
